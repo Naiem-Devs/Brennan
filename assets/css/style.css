@@ -1,0 +1,419 @@
+/*   Theme default css */
+@font-face{
+  src: url(../fonts/FortescuePro.otf);
+  font-family: FortescuePro;
+}
+@font-face{
+  src: url(../fonts/FortescuePro-Bold.otf);
+  font-family: FortescuePro-Bold;
+}
+@font-face{
+  src: url(../fonts/kannadasangammn-01-webfont.woff);
+  font-family: KannadaSangamMN;
+}
+@font-face{
+  src: url(../fonts/KannadaSangamMN-Bold-02.ttf);
+  font-family: KannadaSangamMN-Bold;
+}
+/* ======font family=========
+ font-family: 'Montserrat', sans-serif; 
+*/
+
+
+
+body {
+  font-family: KannadaSangamMN;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background: #2C392B;
+  color: #fff;
+}
+
+  
+button {
+  cursor: pointer; 
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none; 
+  text-decoration: none;
+}
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: FortescuePro;
+  margin-top: 0px;
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+
+.mb_100{margin-bottom: 100px;}
+ 
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* default-css END 
+================================== */
+ 
+
+
+.header-area {
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+}
+
+.header-area hr {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+.menu-area nav ul li {
+  list-style: none;
+  text-align: right;
+}
+
+.menu-area nav ul li a {
+  font-size: 24px;
+  display: block;
+  position: relative;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  transition: .3s;
+}
+
+.menu-area nav ul li a:hover {
+    opacity: .5;
+}
+.menu-area nav ul li a.theme-btn {
+  background: white;
+  display: inline-block;
+  padding: 0 50px;
+  height: 48px;
+  color: #ff4900;
+  line-height: 48px;
+  border-radius: 30px;
+  border: 2px solid white;
+  transition: .3s;
+}  
+
+.menu-area{}
+
+.logo-area a {
+    font-size: 24px;
+}
+
+.header-mid {}
+
+.header-mid a {
+    font-size: 24px;
+    width: max-content;
+    margin: auto;
+    display: block;
+}
+
+/* Header section END */
+
+
+/* hero-area start */
+.hero-area {height: 100vh;position: relative;}
+
+section.hero-area .container {
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+.Scroll {position: absolute;bottom: 1%;right: 13.5%;display: flex;align-items: center;font-size: 24px;}
+
+a.Scroll svg {
+    transform: translate(-7px, -3px);
+}
+
+a.Scroll svg path {
+    fill: #fff;
+}
+.container {max-width: 1420px;}
+.hero_cont {height: 100%;}
+
+.hero_cont h4 {
+    font-size: 24px;
+    font-family: 'KannadaSangamMN';
+}
+
+.hero_cont span {
+    text-align: left;
+    font-size: 20px;
+    display: block;
+}
+
+.hero_cont h1 {
+    font-size: 60px;
+    max-width: 910px;
+}
+/* hero-area End */
+
+/* Experience-area start */
+.Experience-area {
+}
+.title {margin-bottom: 50px;}
+
+.title h3 {
+}
+
+.title span {
+    font-size: 20px;
+    margin-bottom: 25px;
+    display: block;
+}
+.exp_left {
+}
+
+.exp_left h4 {
+    font-size: 20px;
+    font-family: 'KannadaSangamMN';
+    margin-bottom: 20px;
+}
+.exp_left_list {display: flex;width: 440px;justify-content: space-between;}
+
+.exp_left_list ul {
+    max-width: 200px;
+}
+
+.exp_left_list a {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+.exp_i {display: flex;margin-top: 100px;}
+
+.exp_i i {
+    width: 440px;
+    height: 780px;
+    background: #D8D8D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp_i i span {
+    color: black;
+    font-style: normal;
+    font-size: 28px;
+    font-family: 'FortescuePro';
+    width: 158px;
+    display: block;
+    text-align: center;
+}
+.exp_right {
+}
+.exp_blk {margin-bottom: 80px;}
+.exp_blk_top {display: flex;justify-content: space-between;align-items: center;margin-bottom: 15px;}
+
+.exp_blk_top h5 {
+    font-size: 20px;
+    font-family: 'KannadaSangamMN';
+}
+
+.exp_blk_top h4 span {
+    display: block;
+    font-size: 16px;
+    font-family: 'KannadaSangamMN';
+}
+
+.exp_blk_top h4 {
+    font-size: 24px;
+}
+/* Experience-area End */
+
+
+/* work-area Start */
+.work-area {
+}
+.work_top {display: flex;justify-content: space-between;align-items: flex-end;margin-bottom: 100px;}
+.work_tp {margin-bottom: 0;}
+
+.work_tp span {}
+.work_img {
+}
+.work_img_cont {margin-top: 15px;display: flex;justify-content: space-between;align-items: center;}
+
+.work_img_cont a {
+    font-size: 20px;
+}
+
+.work_img_cont a svg {
+    width: 12px;
+}
+
+.work_img_cont span {
+    width: 34px;
+    height: 34px;
+    display: block;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.dribbble {
+}
+.work_wrp {display: flex;flex-wrap: wrap;justify-content: space-between;position: relative;margin-bottom: 100px;}
+
+.work_wrp:after,.work_wrp:before {content: "";position: absolute;width: 100%;height: 1px;left: 0;top: 32%;background: #979797;}
+
+.work_wrp:after {
+    top: 67%;
+}
+.work_blk {flex: 0 0 26%;width: 100%;margin: 50px 0;position: relative;cursor: default;transition: all .3s ease;}
+
+.work_blk:hover:after {
+    opacity: 1;
+}
+
+.work_blk:hover {
+    opacity: .5;
+}
+
+.work_blk:nth-child(3):after, .work_blk:nth-child(6):after, .work_blk:nth-child(9):after {display: none;}
+
+.work_blk:after {content: "";position: absolute;width: 1px;height: 100%;right: -15%;top: 0;background: #979797;}
+
+.work_blk p {
+    max-width: 310px;
+    margin-bottom: 0;
+}
+
+.work_blk h5 {
+    font-family: 'KannadaSangamMN';
+}
+.wrk_bt {display: flex;justify-content: space-between;align-items: center;margin: 60px 0 30px;max-width: 310px;}
+
+.wrk_bt p {
+}
+
+.wrk_bt h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.wrk_bt h4 span {
+    display: block;
+    font-size: 18px;
+    font-family: 'KannadaSangamMN';
+}
+/* work-area End */
+
+/* contact-area Start */
+.contact {
+}
+.contact_left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_left a {
+    font-size: 60px;
+    font-family: 'FortescuePro';
+    text-decoration: underline;
+    line-height: 68px;
+    transition: all .3s ease;
+}
+
+.contact_left a:hover {
+    opacity: .5;
+}
+
+.contact_left ul li {
+    margin-bottom: 15px;
+}
+
+.contact_left h5 {
+    font-size: 20px;
+    font-family: 'KannadaSangamMN';
+}
+.c_right {margin: 0;font-size: 20px;}
+.contact_right {}
+
+.contact_right i {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: #D8D8D8;
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 901px;
+    margin-left: auto;
+}
+
+.contact_right i span {
+    width: 160px;
+    text-align: center;
+    cursor: default;
+}
+
+/* contact End */
