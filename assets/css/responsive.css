@@ -163,8 +163,10 @@ body {
     }
     
     .mb_100 {
-        margin-bottom: 60px;
+        margin-bottom: 11px;
     }
+
+section#Work {}
     
     .title span {
         font-size: 18px;
@@ -240,7 +242,7 @@ div#exp_if .exp_i i {
     }
 
 .work_wrp {
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
     
     .work_blk:after {
@@ -275,6 +277,7 @@ div#exp_if .exp_i i {
     
     section.contact {
         position: relative;
+        padding-top: 30px;
     }
     .work_blk:nth-child(3):after, .work_blk:nth-child(6):after {display: block;}
     .work_img i {

@@ -174,7 +174,7 @@ li {
 
 
 /* hero-area start */
-.hero-area {height: 100vh;position: relative;}
+.hero-area {height: 100vh;position: relative;margin-bottom: 50px;}
 
 section.hero-area .container {
     height: 100vh;
@@ -211,8 +211,7 @@ a.Scroll svg path {
 /* hero-area End */
 
 /* Experience-area start */
-.Experience-area {
-}
+.Experience-area {padding-top: 50px;}
 .title {margin-bottom: 50px;}
 
 .title h3 {
@@ -286,8 +285,7 @@ a.Scroll svg path {
 
 
 /* work-area Start */
-.work-area {
-}
+.work-area {padding-top: 30px;}
 .work_top {display: flex;justify-content: space-between;align-items: flex-end;margin-bottom: 100px;}
 .work_tp {margin-bottom: 0;}
 
